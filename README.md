@@ -50,4 +50,4 @@ The HTTP request will return a JSON summary of the report generation as per the 
       - `SaveRateCardData` - whether or not to save the Rate Card json file to storage (default: `true`)
       - `SaveRawBillingReport` - whether or not to save raw CSV file (no mapped cost data) to storage (default: `true`)
 
-**NOTE:** If you have a large number of subscriptions in your management group, you may need to deploy the Function to something other than the "Consumption" tier. This is because the Consumption tier will timeout after 5 minutes.
+**NOTE:** If you have a large number of subscriptions in your management group, you may need to deploy the Function to something other than the "Consumption" tier. This is because the Consumption tier will timeout after 5 minutes..
